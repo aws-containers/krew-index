@@ -18,7 +18,7 @@ spec:
         - darwin
         - linux
     files:
-    - from: "kubectl-restart-*/*
+    - from: "kubectl-restart-*/*"
       to: "."
     uri: https://github.com/aws-containers/kubectl-exterminate/archive/v0.1.0.tar.gz
     sha256: e6168df8e95d0ce00b99c90ccac01f56850d5d6d9d84c8c490d1b6a130c26c36
