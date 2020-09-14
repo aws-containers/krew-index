@@ -5,7 +5,6 @@ metadata:
 spec:
   version: "v0.1.0"
   homepage: https://github.com/aws-containers/kubectl-exterminate
-  # 'shortDescription' explains what the plugin does in only a few words
   shortDescription: "Exterminate a random pod in a namespace"
   description: |
     EXTERMINATE! EXTERMINATE!
@@ -18,8 +17,6 @@ spec:
         values:
         - darwin
         - linux
-    # 'uri' specifies .zip or .tar.gz archive URL of a plugin
     uri: https://github.com/aws-containers/kubectl-exterminate/archive/v0.1.0.tar.gz
-    # 'sha256' is the sha256sum of the url above
-    sha256: d0b78be28dfe1c790ada8b8fb10e11ec5e43f290f0cb32f2fb147bf35bf54fc9
+    sha256: e6168df8e95d0ce00b99c90ccac01f56850d5d6d9d84c8c490d1b6a130c26c36
     bin: exterminate
