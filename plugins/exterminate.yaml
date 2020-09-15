@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: exterminate
 spec:
-  version: "v0.1.0"
+  version: "v0.1.1"
   homepage: https://github.com/aws-containers/kubectl-exterminate
   shortDescription: "Exterminate a random pod in a namespace"
   description: |
@@ -20,6 +20,6 @@ spec:
     files:
     - from: "kubectl-exterminate-*/*"
       to: "."
-    uri: https://github.com/aws-containers/kubectl-exterminate/archive/v0.1.0.tar.gz
-    sha256: e6168df8e95d0ce00b99c90ccac01f56850d5d6d9d84c8c490d1b6a130c26c36
+    uri: https://github.com/aws-containers/kubectl-exterminate/archive/v0.1.1.tar.gz
+    sha256: 0c404076650b94384d15415f1f221ecf76c45fb107900a17d0cd1c53a4fcc62c
     bin: exterminate
